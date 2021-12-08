@@ -101,6 +101,7 @@ export default function App() {
           placeholder="Senha"
           autoCorrect={false}
           onChangeText={() => {}}
+          secureTextEntry={true}
         />
 
         <TouchableOpacity style={styles.btnSubmit}>
